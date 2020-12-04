@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <style>
+        .survey_first {
+            display: none;
+        }
+        .survey_second{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="registration">
+            <div class="form-control">
+                    Name<input type="text" name="name_user">
+                    Tel<input type="text" name="tel">
+                    <input type="submit">
+            </div>
+        </div>
+        <div class="survey_first">
+            <h2>Опрос 1</h2>
+            <div class="form-control">
+                    <label>Q1</label>
+                    first <input type="radio" name="first">
+                    second <input type="radio" name="first">
+                    <label>Q2</label>
+                    first <input type="radio" name="second">
+                    second <input type="radio" name="second">
+                    <input type="submit">
+            </div>
+        </div>
+        <div class="survey_second">
+            <h2>Опрос 2</h2>
+            <div class="form-control">
+                    first <input type="radio" name="first">
+                    second <input type="radio" name="first">
+                    <input type="submit">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
